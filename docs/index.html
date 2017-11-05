@@ -1,0 +1,334 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>はじめに &mdash; Sphinxで作ったドキュメントをGithubで公開 0.1 ドキュメント</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="索引"
+              href="genindex.html"/>
+        <link rel="search" title="検索" href="search.html"/>
+    <link rel="top" title="Sphinxで作ったドキュメントをGithubで公開 0.1 ドキュメント" href="#"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="#" class="icon icon-home"> Sphinxで作ったドキュメントをGithubで公開
+          
+
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">はじめに</a></li>
+<li><a class="reference internal" href="#id2">概要</a></li>
+<li><a class="reference internal" href="#id3">ディレクトリ構成</a><ul>
+<li><a class="reference internal" href="#id4">ディレクトリ説明</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id5">公開手順</a><ul>
+<li><a class="reference internal" href="#github">githubにプッシュ</a></li>
+<li><a class="reference internal" href="#docs">docs公開設定</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Sphinxで作ったドキュメントをGithubで公開</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#">Docs</a> &raquo;</li>
+        
+      <li>はじめに</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="id1">
+<h1>はじめに<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">¶</a></h1>
+Sphinxで作ったドキュメントを <cite>github.io</cite> で公開するメモです。</br >
+Sphinxのドキュメント作成方法は書きません。既にドキュメントのrstが作られている前提です。<br />
+やっていることは <a href="https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/" target="_blank">Configuring a publishing source for GitHub Pages</a> に書いてある事です。</br ></br ></div>
+<div class="section" id="id2">
+<h1>概要<a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<ul class="simple">
+<li>githubにドキュメントをプッシュする</li>
+<li>githubの設定で <cite>docs</cite> を公開設定する</li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h1>ディレクトリ構成<a class="headerlink" href="#id3" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>github_sphinx_example/
+├── docs
+└── docs_src
+</pre></div>
+</div>
+<div class="section" id="id4">
+<h2>ディレクトリ説明<a class="headerlink" href="#id4" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">ディレクトリ</th>
+<th class="head">説明</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>docs</td>
+<td>github.ioで公開するHTMLソースを保存するディレクトリ</td>
+</tr>
+<tr class="row-odd"><td>docs_src</td>
+<td>Sphinxで作るドキュメントソースを保存するディレクトリ</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="id5">
+<h1>公開手順<a class="headerlink" href="#id5" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<div class="section" id="github">
+<h2>githubにプッシュ<a class="headerlink" href="#github" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ol class="arabic simple">
+<li><cite>docs_src</cite> 内でビルドした <cite>Sphinx HTMLドキュメント</cite> を <cite>docs</cite> へ移動します。</li>
+</ol>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ cp -rp _build/html/* ../docs
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><cite>.nojekyll</cite> を作成します。</li>
+</ol>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ touch .nojekyll ../docs
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">警告</p>
+<p class="last">Githubでは標準で <cite>Jekyll</cite> を使います。Jekyllを使わないように <cite>.nojekyll</cite> を作成します。これを作成しないとgithub.ioでSphinxのスタイルシートなどをうまく読み込んでくれません。</p>
+</div>
+<ol class="arabic simple" start="3">
+<li>ディレクトリツリー例は以下のようになります。</li>
+</ol>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>github_sphinx_example
+├── .gitignore
+├── docs
+│   ├── .nojekyll
+│   <span class="o">(</span>snip<span class="o">)</span>
+└── docs_src
+</pre></div>
+</div>
+<ol class="arabic simple" start="4">
+<li>githubにプッシュします。</li>
+</ol>
+</div>
+<div class="section" id="docs">
+<h2>docs公開設定<a class="headerlink" href="#docs" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ol class="arabic simple">
+<li><cite>Settings</cite> をクリックします。</li>
+</ol>
+<img alt="_images/2017-11-05 16.34.15.png" src="_images/2017-11-05 16.34.15.png" />
+<ol class="arabic simple" start="2">
+<li><cite>Options</cite> の <cite>GitHub Pages</cite> の <cite>Source</cite> を <cite>master branch /docs folder</cite> を設定して <cite>Save</cite> をクリックします。</li>
+</ol>
+<img alt="_images/2017-11-05 16.37.44.png" src="_images/2017-11-05 16.37.44.png" />
+<ol class="arabic simple" start="3">
+<li>以下のURLにアクセスしてドキュメントを確認します。</li>
+</ol>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">URL</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference external" href="https:/">https:/</a>/githubアカウント名.github.io/リポジトリ名</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">注釈</p>
+<p class="last">ページが表示できるようになるまで少し待つ必要があります。</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, sky_joker.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/translations.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
