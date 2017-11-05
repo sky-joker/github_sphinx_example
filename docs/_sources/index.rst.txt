@@ -41,7 +41,7 @@
 githubにプッシュ
 ==================
 
-1. `docs_src` 内でビルドした `Sphinx HTMLドキュメント` を `docs` へ移動します。
+1. `docs_src` 内でビルドした `Sphinx HTMLドキュメント` を `docs` へコピーまたは移動します。
 
 .. code-block:: bash
 
