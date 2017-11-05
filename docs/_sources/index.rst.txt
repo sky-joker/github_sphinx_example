@@ -9,6 +9,14 @@
     やっていることは <a href="https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/" target="_blank">Configuring a publishing source for GitHub Pages</a> に書いてある事です。</br ></br >
 
 =====================
+ページのソース
+=====================
+
+.. raw:: html
+
+    <a href="https://github.com/sky-joker/github_sphinx_example" target="_blank">https://github.com/sky-joker/github_sphinx_example</a><br /><br />
+
+=====================
 概要
 =====================
 
